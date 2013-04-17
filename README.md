@@ -4,6 +4,7 @@ fonts-aakar
 Aakar Gujarati font.
 
 This font was developed as part of Utkarsh Gujarati Operating System.
+<http://www.utkarsh.org>.
 
 Contributors:
 * Ankur Patel,
@@ -13,6 +14,10 @@ Contributors:
 * Kartik Mistry,
 * Khushbu Shah,
 * Sweta Kothari.
+
+Technical Details
+=================
+* No. of Glyphs : 375 glyphs
 
 Creating Web Fonts
 ==================
