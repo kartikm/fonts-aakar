@@ -1,19 +1,17 @@
 fonts-aakar
 ===========
 
-Aakar Gujarati font.
+Aakar Gujarati font. This font was developed as part of [Utkarsh Gujarati Operating System](http://www.utkarsh.org).
 
-This font was developed as part of Utkarsh Gujarati Operating System.
-<http://www.utkarsh.org>.
-
-Contributors:
-* Ankur Patel,
-* Ankit Patel,
-* Atit Patel,
-* Bhavin Shah,
-* Kartik Mistry,
-* Khushbu Shah,
-* Sweta Kothari.
+Contributors
+============
+* Ankur Patel
+* Ankit Patel
+* Atit Patel
+* Bhavin Shah
+* Kartik Mistry
+* Khushbu Shah
+* Sweta Kothari
 
 Technical Details
 =================
@@ -43,4 +41,4 @@ The aakar font is free software, licensed under the terms of the GNU General
 Public License. aakar is developed based on the glyphs of Padma, which in turn
 is basedon Akruti.
 
-See LICENSE file for full license text.
+See [LICENSE](https://github.com/kartikm/fonts-aakar/blob/master/LICENSE) file for full license text.
