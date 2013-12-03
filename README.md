@@ -3,6 +3,21 @@ fonts-aakar
 
 Aakar Gujarati font. This font was developed as part of [Utkarsh Gujarati Operating System](http://www.utkarsh.org).
 
+Sample Text
+===========
+
+Please do note that this are images and not actual text rendering.
+
+Size 10
+![aakarsampletext_aakar_10](https://f.cloud.github.com/assets/738746/1663181/941a7e20-5c0d-11e3-9c85-1c94fc1ec29e.png)
+
+Size 50
+![aakarsampletext_aakar_50](https://f.cloud.github.com/assets/738746/1663182/945807a4-5c0d-11e3-9537-761dfca58f21.png)
+
+Size 100
+![aakarsampletext_aakar_100](https://f.cloud.github.com/assets/738746/1663174/6565d804-5c0d-11e3-8ce9-374e68386f85.png)
+
+
 
 How to install ?
 ================
@@ -36,10 +51,9 @@ Technical Details
 =================
 * No. of Glyphs : 375 glyphs
 
-
-Known Issues 
+Known Issues
 ============
-See [pending issues] (https://github.com/kartikm/fonts-aakar/issues) 
+See [pending issues] (https://github.com/kartikm/fonts-aakar/issues)
 
 Testing
 =======
