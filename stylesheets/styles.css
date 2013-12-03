@@ -7,6 +7,22 @@ body {
   font-weight:300;
 }
 
+@font-face {
+    font-family: 'Aakar';
+    src: url('https://github.com/kartikm/fonts-aakar/releases/download/0.2/Aakar-Medium.eot');
+    src: local('Aakar'),
+         url('https://github.com/kartikm/fonts-aakar/releases/download/0.2/Aakar-Medium.eot?#iefix') format('embedded-opentype'),
+         url('https://github.com/kartikm/fonts-aakar/releases/download/0.2/Aakar-Medium.woff') format('woff'),
+         url('https://github.com/kartikm/fonts-aakar/releases/download/0.2/aakar-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.aakar {
+  font-family:'Aakar';
+  font-size: 3.5em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
