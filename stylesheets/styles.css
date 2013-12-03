@@ -20,7 +20,14 @@ body {
 
 .aakar {
   font-family:'Aakar';
+}
+
+h1.aakar {
   font-size: 3.5em;
+}
+
+.sample {
+  font-size: 2.0em;
 }
 
 h1, h2, h3, h4, h5, h6 {
