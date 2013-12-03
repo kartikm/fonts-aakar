@@ -22,6 +22,10 @@ body {
   font-family:'Aakar';
 }
 
+#samplelink {
+  display: none;
+}
+
 h1.aakar {
   font-size: 3.5em;
 }
@@ -256,6 +260,10 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
+  }
+
+  #samplelink {
+    display: inline;
   }
 }
 
