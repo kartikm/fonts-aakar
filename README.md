@@ -39,12 +39,12 @@ Creating Web Fonts
 
 #### Creating .woff
 ```
-java -jar /path/to/sfnttool.jar -w Aakar-Medium.ttf Aakar-Medium.woff
+java -jar /path/to/sfnttool.jar -w aakar-medium.ttf Aakar-Medium.woff
 ```
 
 #### Creating .eot
 ```
-java -jar /path/to/sfnttool.jar -e -x Aakar-Medium.ttf Aakar-Medium.eot
+java -jar /path/to/sfnttool.jar -e -x aakar-medium.ttf Aakar-Medium.eot
 ```
 
 Technical Details
