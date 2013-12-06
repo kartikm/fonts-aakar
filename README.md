@@ -33,8 +33,9 @@ curl -Lo /Library/Fonts/aakar-medium.ttf https://github.com/kartikm/fonts-aakar/
 #### Windows
 TODO
 
-Creating Web Fonts
-==================
+Web Fonts
+=========
+
 [Sfntly] (https://code.google.com/p/sfntly/) is required for creating web fonts. Once installed, following commands can be used.
 
 #### Creating .woff
@@ -45,6 +46,33 @@ java -jar /path/to/sfnttool.jar -w aakar-medium.ttf Aakar-Medium.woff
 #### Creating .eot
 ```
 java -jar /path/to/sfnttool.jar -e -x aakar-medium.ttf Aakar-Medium.eot
+```
+
+### Using it in your work
+
+Declare the CSS rule. See code snippet below. You can copy and paste it in your code as well.
+
+```css
+@font-face {
+    font-family: 'Aakar';
+    src: url('https://github.com/kartikm/fonts-aakar/releases/download/0.2/Aakar-Medium.eot');
+    src: local('Aakar'),
+         url('https://github.com/kartikm/fonts-aakar/releases/download/0.2/Aakar-Medium.eot?#iefix') format('embedded-opentype'),
+         url('https://github.com/kartikm/fonts-aakar/releases/download/0.2/Aakar-Medium.woff') format('woff'),
+         url('https://github.com/kartikm/fonts-aakar/releases/download/0.2/aakar-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.aakar {
+  font-family:'Aakar';
+}
+```
+
+Apply the style to your content. Below is part of HTML page to illustrate it. Ofcourse once a CSS rule has been declared there are various ways to apply it to your content. This one is just one way to do it.
+
+```html
+<p class="aakar">ભારત</p>
 ```
 
 Technical Details
