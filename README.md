@@ -1,7 +1,8 @@
 fonts-aakar
 ===========
 
-Aakar Gujarati font. This font was developed as part of [Utkarsh Gujarati Operating System](http://www.utkarsh.org).
+Aakar Gujarati font. This font was developed as part of
+[Utkarsh Gujarati Operating System](http://www.utkarsh.org).
 
 Sample Text
 ===========
@@ -23,7 +24,17 @@ How to install ?
 ================
 
 #### Linux
-TODO
+In Debian or derivative distributions, use:
+
+```
+sudo apt-get install fonts-aakar
+```
+
+Or you can place ttf file to /usr/share/fonts/truetype folder and run,
+
+```
+fc-cache
+```
 
 #### Mac
 ```
@@ -36,7 +47,8 @@ TODO
 Web Fonts
 =========
 
-[Sfntly] (https://code.google.com/p/sfntly/) is required for creating web fonts. Once installed, following commands can be used.
+[Sfntly] (https://code.google.com/p/sfntly/) is required for creating web
+fonts. Once installed, following commands can be used.
 
 #### Creating .woff
 ```
@@ -50,7 +62,8 @@ java -jar /path/to/sfnttool.jar -e -x aakar-medium.ttf Aakar-Medium.eot
 
 ### Using it in your work
 
-Declare the CSS rule. See code snippet below. You can copy and paste it in your code as well.
+Declare the CSS rule. See code snippet below. You can copy and paste it in your
+code as well.
 
 ```css
 @font-face {
@@ -69,7 +82,9 @@ Declare the CSS rule. See code snippet below. You can copy and paste it in your 
 }
 ```
 
-Apply the style to your content. Below is part of HTML page to illustrate it. Ofcourse once a CSS rule has been declared there are various ways to apply it to your content. This one is just one way to do it.
+Apply the style to your content. Below is part of HTML page to illustrate it.
+Ofcourse once a CSS rule has been declared there are various ways to apply it
+to your content. This one is just one way to do it.
 
 ```html
 <p class="aakar">ભારત</p>
@@ -85,7 +100,9 @@ See [pending issues] (https://github.com/kartikm/fonts-aakar/issues)
 
 Testing
 =======
-We are always looking for volunteers to test this fonts on various platforms and target machines. Let's us know if you find something which is not properly rendered by filling an issue [here](https://github.com/kartikm/fonts-aakar/issues). 
+We are always looking for volunteers to test this fonts on various platforms
+and target machines. Let's us know if you find something which is not properly
+rendered by filling an issue [here](https://github.com/kartikm/fonts-aakar/issues).
 
 Contributors
 ============
@@ -97,7 +114,8 @@ Contributors
 * Khushbu Shah
 * Sweta Kothari
 
-You can also contribute to this project as it is a opensource project and we are eagerly awaiting your pull-requests. Start forking us.
+You can also contribute to this project as it is a opensource project and we
+are eagerly awaiting your pull-requests. Start forking us.
 
 LICENSE
 =======
@@ -109,4 +127,5 @@ The aakar font is free software, licensed under the terms of the GNU General
 Public License. aakar is developed based on the glyphs of Padma, which in turn
 is based on Akruti.
 
-See [LICENSE](https://github.com/kartikm/fonts-aakar/blob/master/LICENSE) file for full license text.
+See [LICENSE](https://github.com/kartikm/fonts-aakar/blob/master/LICENSE) file
+for full license text.
