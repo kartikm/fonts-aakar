@@ -23,18 +23,23 @@ Size 100
 How to install ?
 ================
 
-#### Linux
-In Debian or derivative distributions, use:
+#### Linux (using package)
+In Debian and derivative distributions like Ubuntu, simply use:
 
 ```
 sudo apt-get install fonts-aakar
 ```
 
-Or you can place ttf file to /usr/share/fonts/truetype folder and run,
+#### Linux (manual installation)
+
+Place font file to /usr/share/fonts folder and run,
 
 ```
-fc-cache
+fc-cache -v
 ```
+
+in terminal.
+
 
 #### Mac
 ```
