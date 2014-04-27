@@ -32,7 +32,7 @@ sudo apt-get install fonts-aakar
 
 #### Linux (manual installation)
 
-Place font file to /usr/share/fonts folder and run,
+Place font file to ```/usr/share/fonts``` folder and run,
 
 ```
 fc-cache -v
